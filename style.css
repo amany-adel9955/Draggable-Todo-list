@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  rgb(231, 243, 239);
+}
+.button-container{
+display: flex;
+justify-content: center;
+}
+.button-container p{
+    margin-top: 5rem;
+}
+.btn{
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    padding: 1px 30px;
+    border: none;
+    border-radius: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+.btn-secondery{
+    color: aliceblue;
+    background-color: rgb(12, 12, 27);
+    margin-top: 2rem;
+    text-decoration: none;
+}
+.btn-secondery:hover{
+    background-color: rgb(29, 98, 83);
+}
+.todo-container{
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.411);
+    border-radius: 5px;
+    padding: 15px;
+}
+#add-form{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+#todo-input{
+    padding: 5px 10px;
+    width: 75%;
+    border-radius: 5px;
+}
+.boxes-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+.box{
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    width: 250px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.task{
+    background-color: rgb(12, 12, 27);
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    cursor:move;
+}
+.task.is-dragging{
+    background-color: rgb(17, 138, 112) ;
+    color: antiquewhite;
+}
+
+ 
